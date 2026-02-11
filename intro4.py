@@ -9,3 +9,5 @@ def print_day (x):
     else:
         print_day
 
+
+print("hi sergei")
