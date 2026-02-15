@@ -1,0 +1,158 @@
+# print("Hello to Python")
+
+# print (2+2)
+
+# print(10-3)
+
+# print(20/4)
+
+# print(10//3)
+
+# print(10%3)
+
+# print(10//3)
+
+# print(5 + 3 * 2)
+# print((5 + 3) * 2)
+#type() function:
+greeting = "Hello class"
+# print(type(greeting))
+# print((type("Hi")))
+# print(type((1,2,3)))
+# print(type((123)))
+# print(type(("123")))
+
+# string methods:
+print(greeting.upper())
+print(greeting.lower())
+print(greeting.capitalize())
+
+# string concatenation - joining strings together:
+# first = "John"
+# last = "Due"
+# full_name = first + " " + last
+# print(full_name)
+
+# print ("ha" * 3)
+# print(dir("42"))
+
+text = "Hello, world"
+# print(text.replace("world", "Python"))
+# print(text.count("l"))
+# print(text)
+
+# multiline = """
+# Line1
+# Line2
+# """
+# print((text[0]))
+# print((text[-1]))
+
+age = 25
+temp = 25
+year = 2026
+print(type(year))
+
+# Float
+pi = 3.14159
+print(type(pi))
+
+# # Boolean - True or False
+# is_sunny = True
+# is_raining = False
+# print(type(is_sunny))
+
+# print(10 < 7)
+# print(10 < 10)
+# print(10 > 7)
+# print(5 != 3)
+
+# # x = 42
+# # y = "42"
+# # print(x+1)
+# # print(y+1)
+
+# # # type casting:
+# # str_num = "100"
+# # print(int(str_num) + 1)
+
+# num = 42
+# print(str(num) + " is answer")
+# print(bool(1))
+# print(bool(" "))
+
+# name = "Alice" \
+# age = 25
+# height = 186.5
+# is_student = True
+# max_attempts = 5
+
+a = 1
+b = 2
+c = 3
+
+a,b,c = 1,2,3
+print(a,b,c)
+
+a,b = b,a
+print(a,b,c)
+
+#incrementing
+counter = 0
+counter = counter + 1
+counter += 1
+print(counter)
+
+# String formationg
+# first = "John"
+# last = "Due"
+
+# text1 = "Heello," + " " + first + " " + last
+# print(text1)
+
+# price = 19.99
+# quantity = 3
+# price = f"Total: ${price * quantity}"
+# print(price)
+
+# name = input("What is your name?")
+# print(f"Hello, {name}!")
+# age = int(input("What is your age?"))
+# print(f"My age is {age}")
+
+# IF statements:
+
+age = 15
+# if age >= 18:
+#     print("You can vote!")
+#     print("Finish")
+
+# score = 95
+
+# if score >= 90 or score == 100:
+#     grade = "A"
+# elif score >= 80:
+#     grade = "B"
+# elif score >= 70:
+#     grade = "C"
+# else:
+#     grade = "F"
+# # 
+
+# has_license = True
+# if not has_license:
+#     print("No:")
+# else:
+#     print("Yes")
+
+
+# hobbies = "coding", "gaming", "running"
+# if "coding" in hobbies:
+#     print("You are in the bootcamp")
+
+# if "a" are in "apple"
+#     print("Yes")
+
+# nested conditionds:
+if age >= 18:
+    if 
