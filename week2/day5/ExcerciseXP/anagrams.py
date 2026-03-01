@@ -3,7 +3,7 @@ import os
 
 def main():
     current_dir = os.path.dirname(__file__)
-    file_path = os.path.join(current_dir, "word_list.txt")
+    file_path = os.path.join(current_dir, "sowpods.txt")
 
     checker = AnagramChecker(file_path)
 
